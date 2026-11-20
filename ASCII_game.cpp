@@ -66,10 +66,3 @@ bool playAsciiGame(int& triesUsed)
     cout << endl << "Out of tries! The word was ProMOteD" << endl; // Fixed word
     return false;
 }
-
-int main()
-{
-    int triesUsed = 0;
-    playAsciiGame(triesUsed);
-    return 0;
-}
