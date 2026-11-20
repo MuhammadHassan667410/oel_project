@@ -35,10 +35,3 @@ bool playWordSwapGame(int& triesUsed)
     cout << endl << "Out of tries! The correct word was ENCRYPT." << endl;
     return false;
 }
-
-int main()
-{
-	int triesUsed = 0;
-	bool gameWon = playWordSwapGame(triesUsed);
-	return 0;
-}

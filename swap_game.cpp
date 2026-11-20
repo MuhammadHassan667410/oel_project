@@ -27,10 +27,3 @@ bool playMirroringGame(int& triesUsed)
     cout << "LEVEL FAILED" << endl;
     return false;
 }
-
-int main()
-{
-	int triesUsed = 0;
-    playMirroringGame(triesUsed);
-	return 0;
-}

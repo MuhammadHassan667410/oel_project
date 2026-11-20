@@ -129,9 +129,3 @@ bool playDetectiveGame()
         return false;
     }
 }
-
-int main()
-{
-    playDetectiveGame();
-    return 0;
-}

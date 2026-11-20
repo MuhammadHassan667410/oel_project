@@ -36,10 +36,3 @@ bool playPatternGame(int& triesUsed)
     cout << endl << "Out of tries! The correct answer was 55/89" << endl;
     return false;
 }
-
-int main()
-{
-	int triesUsed;
-	playPatternGame(triesUsed);
-	return 0;
-}

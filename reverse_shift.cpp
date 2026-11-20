@@ -46,10 +46,3 @@ bool playReflectionGame(int& triesUsed)
     cout << "LEVEL FAILED" << endl;
     return false;
 }
-
-int main()
-{
-	int triesUsed = 0;
-	playReflectionGame(triesUsed);
-	return 0;
-}
