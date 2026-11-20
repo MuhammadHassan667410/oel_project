@@ -5,17 +5,6 @@ using namespace std;
 // Function prototype
 bool playDetectiveGame();
 
-// main (only for testing this game)
-int main()
-{
-    if (playDetectiveGame() == true)
-        cout << "\n\nYou WON the detective game!" << endl;
-    else
-        cout << "\n\nYou LOST the detective game." << endl;
-
-    return 0;
-}
-
 // Detective game (final level).
 // The player has 60 seconds to investigate, interrogate and accuse.
 // There is only one accusation, no extra tries.
